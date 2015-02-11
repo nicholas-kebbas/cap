@@ -192,8 +192,6 @@ module.exports = function (grunt) {
         flow: {
           html: {
             steps: {
-              js: ['concat', 'uglifyjs'],
-              css: ['cssmin']
             },
             post: {}
           }
@@ -382,8 +380,7 @@ module.exports = function (grunt) {
     'clean:server',
     'concurrent:test',
     'autoprefixer',
-    'connect:test',
-    'karma'
+    'connect:test'
   ]);
 
   grunt.registerTask('build', [
@@ -392,12 +389,9 @@ module.exports = function (grunt) {
     'useminPrepare',
     'concurrent:dist',
     'autoprefixer',
-    'concat',
     'ngmin',
     'copy:dist',
     'cdnify',
-    'cssmin',
-    'uglify',
     'filerev',
     'usemin',
     'htmlmin'

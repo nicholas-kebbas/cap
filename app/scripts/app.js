@@ -1,33 +1,28 @@
 'use strict';
 
-/**
- * @ngdoc overview
- * @name capApp
- * @description
- * # capApp
- *
- * Main module of the application.
- */
-angular
-  .module('capApp', [
-    'ngAnimate',
-    'ngCookies',
-    'ngResource',
-    'ngRoute',
-    'ngSanitize',
-    'ngTouch'
-  ])
-  .config(function ($routeProvider) {
-    $routeProvider
-      .when('/', {
+/* App Module */
+
+var capApp = angular.module('capApp', [
+  'ngRoute',
+  'capAnimations',
+
+  'capControllers',
+  'capFilters',
+  'capServices'
+]);
+
+capApp.config(['$routeProvider',
+  function($routeProvider) {
+    $routeProvider.
+      when('/phones', {
         templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
-      })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl'
-      })
-      .otherwise({
-        redirectTo: '/'
+        controller: 'PhoneListCtrl'
+      }).
+      when('/phones/:phoneId', {
+        templateUrl: 'views/detail.html',
+        controller: 'PhoneDetailCtrl'
+      }).
+      otherwise({
+        redirectTo: '/phones'
       });
-  });
+  }]);

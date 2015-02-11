@@ -15,7 +15,21 @@
   },
   "devDependencies": {
     "angular-mocks": "1.2.16",
-    "angular-scenario": "1.2.16"
+    "angular-scenario": "1.2.16",
+    "jquery-ui": "~1.11.2",
+    "angular-ui-sortable": "~0.13.3"
   },
-  "appPath": "app"
+  "appPath": "app",
+  "homepage": "https://github.com/nicholas-kebbas/cap",
+  "authors": [
+    "nickkebbas <nicholas.kebbas@yahoo.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
