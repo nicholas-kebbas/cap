@@ -6,7 +6,7 @@ Search: <input ng-model="query">
 Sort by:
 <select ng-model="orderProp">
 <option value="name">Alphabetical</option>
-<option value="age">Newest</option>
+<option value="rank">Highest Paid</option>
 </select>
 </div>
 <div class="col-md-10">
@@ -16,7 +16,7 @@ Sort by:
 class="thumbnail phone-listing">
 <a href="#/phones/{{phone.id}}" class="thumb"><img ng-src="{{phone.imageUrl}}"></a>
 <a href="#/phones/{{phone.id}}">{{phone.name}}</a>
-<p>{{phone.snippet}}</p>
+<p>${{phone.salary}}</p>
 </li>
 </ul>
 </div>
