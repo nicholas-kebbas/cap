@@ -353,7 +353,38 @@ module.exports = function (grunt) {
         singleRun: true
       }
     }
+
+    buildcontrol: {
+      options: {
+        dir: 'dist',
+        commit: true,
+        push: true,
+        message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
+      },
+      pages: {
+        options: {
+          remote: 'git@github.com:example_user/example_webapp.git',
+          branch: 'gh-pages'
+        }
+      },
+      heroku: {
+        options: {
+          remote: 'git@heroku.com:cap-space.git',
+          branch: 'master'
+        }
+      },
+      local: {
+        options: {
+          remote: '../',
+          branch: 'build'
+        }
+      }
+    }
   });
+
+grunt.registerTask('build', [
+  // Collection of tasks that build code to the 'dist' directory...
+]);
 
 
   grunt.registerTask('serve', 'Compile then start a connect web server', function (target) {
