@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 node_modules
 .tmp
 .sass-cache
 bower_components
 dist
+=======
+# Ignore pattern for Production
+node_modules
+>>>>>>> e2d16ebf6b40b21a432c74b125e03626def31132
