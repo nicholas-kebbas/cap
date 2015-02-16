@@ -1,5 +1,5 @@
 [
-      {
+    {
         "rank": 1,
         "id": "kobe-bryant", 
         "imageUrl": "img/phones/kobe.jpg", 
@@ -170,6 +170,12 @@
         "imageUrl": "img/phones/kd.jpg", 
         "name": "Eric Gordon", 
         "salary": "14,898,938"
+    },
+    {
+        "rank": 25,
+        "id": "tyson-chandler", 
+        "imageUrl": "img/phones/tyson-chandler.jpg",
+        "name": "Tyson Chandler",
+        "salary": "14,846,888"
     }
-
 ]

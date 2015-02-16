@@ -1,0 +1,212 @@
+[    
+    {
+        "rank": 1,  
+        "id": "nets", 
+        "imageUrl": "img/phones/nets.jpg", 
+        "name": "Brooklyn Nets", 
+        "salary": "94,400,070"
+    },
+    {
+        "rank": 2,
+        "id": "trailblazers", 
+        "imageUrl": "img/phones/trailblazers.jpg",
+        "name": "Portland Trailblazers",
+        "salary": "89,320,392"
+    },
+    {
+        "rank": 3,  
+        "id": "Rockets", 
+        "imageUrl": "img/phones/rockets.jpg", 
+        "name": "Houston Rockets", 
+        "salary": "89,227,612"
+    },
+    {
+        "rank": 4,
+        "id": "wizards", 
+        "imageUrl": "img/phones/wizards.jpg",
+        "name": "Washington Wizards",
+        "salary": "85,415,897"
+    },
+    {
+        "rank": 5,  
+        "id": "mavericks", 
+        "imageUrl": "img/phones/mavericks.jpg", 
+        "name": "Dallas Mavericks", 
+        "salary": "83,301,367"
+    },
+    {
+        "rank": 6,
+        "id": "cavaliers", 
+        "imageUrl": "img/phones/cavaliers.jpg",
+        "name": "Cleveland Cavaliers",
+        "salary": "81,604,221"
+    },
+    {
+        "rank": 7,  
+        "id": "knicks", 
+        "imageUrl": "img/phones/knicks.jpg", 
+        "name": "New York Knicks", 
+        "salary": "81,334,014"
+    },
+    {
+        "rank": 8,
+        "id": "bulls", 
+        "imageUrl": "img/phones/bulls.jpg",
+        "name": "Chicago Bulls",
+        "salary": "81,244,225"
+    },
+    {
+        "rank": 9,  
+        "id": "clippers", 
+        "imageUrl": "img/phones/clippers.jpg", 
+        "name": "Los Angeles Clippers", 
+        "salary": "80,539,840"
+    },
+    {
+        "rank": 10,
+        "id": "thunder", 
+        "imageUrl": "img/phones/thunder.jpg",
+        "name": "Oklahoma City Thunder",
+        "salary": "79,217,289"
+    },
+    {
+        "rank": 11,  
+        "id": "heat", 
+        "imageUrl": "img/phones/heat.jpg", 
+        "name": "Miami Heat", 
+        "salary": "78,603,727"
+    },
+    {
+        "rank": 12,
+        "id": "raptors", 
+        "imageUrl": "img/phones/raptors.jpg",
+        "name": "Toronto Raptors",
+        "salary": "75,562,364"
+    },
+    {
+        "rank": 13,  
+        "id": "hornets", 
+        "imageUrl": "img/phones/hornets.jpg", 
+        "name": "Charlotte Hornets", 
+        "salary": "75,954,458"
+    },
+    {
+        "rank": 14,
+        "id": "Indiana Pacers", 
+        "imageUrl": "img/phones/pacers.jpg",
+        "name": "Indiana Pacers",
+        "salary": "75,174,324"
+    },
+    {
+        "rank": 15,  
+        "id": "Memphis Grizzlies", 
+        "imageUrl": "img/phones/grizzlies.jpg", 
+        "name": "Memphis Grizzlies", 
+        "salary": "75,311,383"
+    },
+    {
+        "rank": 16,
+        "id": "Golden State Warriors", 
+        "imageUrl": "img/phones/warriors.jpg",
+        "name": "Golden State Warriors",
+        "salary": "73,516,218"
+    },
+    {
+        "rank": 17,  
+        "id": "nets", 
+        "imageUrl": "img/phones/kings.jpg", 
+        "name": "Sacramento Kings", 
+        "salary": "71,038,383"
+    },
+    {
+        "rank": 18,
+        "id": "lakers", 
+        "imageUrl": "img/phones/lakers.jpg",
+        "name": "Los Angeles Lakers",
+        "salary": "70,821,702"
+    },
+    {
+        "rank": 19,  
+        "id": "nuggets", 
+        "imageUrl": "img/phones/nuggets.jpg", 
+        "name": "Denver Nuggets", 
+        "salary": "70,201,536"
+    },
+    {
+        "rank": 20,
+        "id": "wizards", 
+        "imageUrl": "img/phones/wizards.jpg",
+        "name": "Washington Wizards",
+        "salary": "85,415,897"
+    },
+    {
+        "rank": 21,  
+        "id": "mavericks", 
+        "imageUrl": "img/phones/mavericks.jpg", 
+        "name": "Dallas Mavericks", 
+        "salary": "83,301,367"
+    },
+    {
+        "rank":22,
+        "id": "cavaliers", 
+        "imageUrl": "img/phones/cavaliers.jpg",
+        "name": "Cleveland Cavaliers",
+        "salary": "81,604,221"
+    },
+    {
+        "rank": 23,  
+        "id": "knicks", 
+        "imageUrl": "img/phones/knicks.jpg", 
+        "name": "New York Knicks", 
+        "salary": "81,334,014"
+    },
+    {
+        "rank": 24,
+        "id": "Chicago Bulls", 
+        "imageUrl": "img/phones/bulls.jpg",
+        "name": "Chicago Bulls",
+        "salary": "81,244,225"
+    },
+    {
+        "rank": 25,  
+        "id": "mavericks", 
+        "imageUrl": "img/phones/mavericks.jpg", 
+        "name": "Dallas Mavericks", 
+        "salary": "83,301,367"
+    },
+    {
+        "rank":26,
+        "id": "cavaliers", 
+        "imageUrl": "img/phones/cavaliers.jpg",
+        "name": "Cleveland Cavaliers",
+        "salary": "81,604,221"
+    },
+    {
+        "rank": 27,  
+        "id": "knicks", 
+        "imageUrl": "img/phones/knicks.jpg", 
+        "name": "New York Knicks", 
+        "salary": "81,334,014"
+    },
+    {
+        "rank": 28,
+        "id": "Chicago Bulls", 
+        "imageUrl": "img/phones/bulls.jpg",
+        "name": "Chicago Bulls",
+        "salary": "81,244,225"
+    },
+    {
+        "rank": 29,  
+        "id": "knicks", 
+        "imageUrl": "img/phones/knicks.jpg", 
+        "name": "New York Knicks", 
+        "salary": "81,334,014"
+    },
+    {
+        "rank": 30,
+        "id": "Chicago Bulls", 
+        "imageUrl": "img/phones/bulls.jpg",
+        "name": "Chicago Bulls",
+        "salary": "81,244,225"
+    }
+]

@@ -1,29 +1,15 @@
-<div class="phone-images">
-  <img ng-src="{{img}}"
-       class="phone"
+<div class="container">
+  <div class="row panel">
+        <div class="col-md-8  col-xs-12">
+           <img ng-src="{{img}}"
+       class="img-thumbnail visible-xs picture_mob"
        ng-repeat="img in phone.images"
        ng-class="{active: mainImageUrl==img}">
+           <div class="header">
+                <h1>{{phone.name}}</h1>
+                <h4>2014-2015 Salary: ${{phone.salary}}</h4>
+                <span>Expires {{phone.contract}}</span>
+           </div>
+        </div>
+    </div>   
 </div>
-
-<h1>{{phone.name}}</h1>
-
-<p>{{phone.description}}</p>
-
-<ul class="phone-thumbs">
-  <li ng-repeat="img in phone.images">
-    <img ng-src="{{img}}" ng-click="setImage(img)">
-  </li>
-</ul>
-
-<ul class="specs">
-  <li>
-    <span>Contract Details</span>
-    <dl>
-      <dt>Expires</dt>
-      <dd>{{phone.contract}}</dd>
-    </dl>
-  </li>
-    <span>Salary</span>
-    <dd>{{phone.salary}}</dd>
-  </li>
-</ul>
