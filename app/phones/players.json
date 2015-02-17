@@ -177,5 +177,61 @@
         "imageUrl": "img/phones/tyson-chandler.jpg",
         "name": "Tyson Chandler",
         "salary": "14,846,888"
+    },
+    {
+        "rank": 26,  
+        "id": "john-wall", 
+        "imageUrl": "img/phones/john-wall.jpg", 
+        "name": "John Wall", 
+        "salary": "14,746,000"
+    },
+    {
+        "rank": 27,  
+        "id": "demarcus-cousins", 
+        "imageUrl": "img/phones/demarcus-cousins.jpg", 
+        "name": "Demarcus Cousins", 
+        "salary": "14,746,000"
+    },
+    {
+        "rank": 28,  
+        "id": "james-harden", 
+        "imageUrl": "img/phones/james-harden.jpg", 
+        "name": "James Harden", 
+        "salary": "14,728,844"
+    },
+    {
+        "rank": 29,  
+        "id": "chandler-parsons", 
+        "imageUrl": "img/phones/chandler-parsons.jpg", 
+        "name": "Chandler Parsons", 
+        "salary": "14,700,000"
+    },
+    {   
+        "rank": 30,  
+        "id": "al-jefferson", 
+        "imageUrl": "img/phones/al-jefferson.jpg", 
+        "name": "Al Jefferson", 
+        "salary": "13,500,000"
+    },
+    {
+        "rank": 31,  
+        "id": "nene", 
+        "imageUrl": "img/phones/nene.jpg", 
+        "name": "Nene Hilario", 
+        "salary": "13,000,000"
+    },
+    {
+        "rank": 32,  
+        "id": "eric-bledsoe", 
+        "imageUrl": "img/phones/eric-bledsoe.jpg", 
+        "name": "Eric Bledsoe", 
+        "salary": "13,000,000"
+    },
+    {
+        "rank": 33,  
+        "id": "andrew-bogut", 
+        "imageUrl": "img/phones/andrew-bogut.jpg", 
+        "name": "Andrew Bogut", 
+        "salary": "12,972,973"
     }
 ]
