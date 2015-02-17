@@ -13,7 +13,7 @@ var capApp = angular.module('capApp', [
 capApp.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
-      when('/phones', {
+      when('/players', {
         templateUrl: 'views/main.html',
         controller: 'PhoneListCtrl'
       }).
@@ -25,11 +25,11 @@ capApp.config(['$routeProvider',
         templateUrl: 'views/team_detail.html',
         controller: 'TeamDetailCtrl'
       }).
-      when('/phones/:phoneId', {
+      when('/players/:phoneId', {
         templateUrl: 'views/detail.html',
         controller: 'PhoneDetailCtrl'
       }).
       otherwise({
-        redirectTo: '/phones'
+        redirectTo: '/players'
       });
   }]);

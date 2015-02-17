@@ -4,16 +4,16 @@
 
 var capControllers = angular.module('capControllers', []);
 
-capControllers.controller('PhoneListCtrl', ['$scope', 'Phone',
-  function($scope, Phone) {
-    $scope.phones = Phone.query();
-    $scope.orderProp = 'age';
-  }]);
+capControllers.controller('PhoneListCtrl', function ($scope, $http){
+    $http.get('phones/players.json').success(function(player) {
+    $scope.players = player;
+  });
+  });
 
 capControllers.controller('TeamCtrl', function ($scope, $http){
     $http.get('phones/teams.json').success(function(data) {
     $scope.teams = data;
-  })
+  });
   });
 
 capControllers.controller('PhoneDetailCtrl', ['$scope', '$routeParams', 'Phone',
