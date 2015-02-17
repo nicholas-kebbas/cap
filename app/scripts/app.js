@@ -28,8 +28,5 @@ capApp.config(['$routeProvider',
       when('/players/:phoneId', {
         templateUrl: 'views/detail.html',
         controller: 'PhoneDetailCtrl'
-      }).
-      otherwise({
-        redirectTo: '/players'
       });
   }]);
