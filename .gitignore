@@ -2,5 +2,3 @@ node_modules
 .tmp
 .sass-cache
 bower_components
-# Ignore pattern for Production
-node_modules
