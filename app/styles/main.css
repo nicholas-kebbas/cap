@@ -120,6 +120,12 @@ h1 {
   display:inline-block;
 }
 
+.salary_cap h2{
+  color: #E59A00;
+}
+.phones{
+  padding-left:0px;
+}
 .phones p{
   color:black;
   display:inline;
@@ -129,7 +135,6 @@ h1 {
   color: #1A4787;
   font-size:18px;
   font-weight:500;
-
 }
 .phones a:focus, a:hover{
   color: #E59A00;

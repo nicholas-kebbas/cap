@@ -5,17 +5,16 @@
 		</div>
 		<div class="col-md-10">
 		<!--Body content-->
+		<div class="salary_cap">
+			<h2>2014-2015 Salary Cap: 63,065,000</h2>
+		</div>
 			<ul class="phones">
 				<li ng-repeat="team in teams | filter:query | orderBy:orderProp"
 				class="thumbnail phone-listing">
 				<a href="#/teams/{{team.rank}}" class="thumb"><img class="profile" ng-src="{{team.imageUrl}}"></a>
 				<a href="#/teams/{{team.rank}}">{{team.name}}</a>
 				<div class="salaries">
-					<p>{{team.salary_2015}}</p>
-					<p>{{team.salary_2016}}</p>
-					<p>{{team.salary_2017}}</p>
-					<p>{{team.salary_2018}}</p>
-					<p>{{team.salary_2019}}</p>
+					<p>2014-2015 Salary: {{team.2015}}</p>
 				</div>
 				</li>
 			</ul>
