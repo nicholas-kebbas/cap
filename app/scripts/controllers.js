@@ -11,9 +11,10 @@ capControllers.controller('PhoneListCtrl', function ($scope, $http){
 });
 
 capControllers.controller('TeamCtrl', function ($scope, $http){
-    $http.get('phones/teams.json').success(function(data) {
+  $http.get('phones/teams.json').success(function(data) {
     $scope.teams = data;
   });
+  $scope.orderProp = 'rank';
 });
 
 capControllers.controller('PhoneDetailCtrl', ['$scope', '$routeParams', 'Phone',
