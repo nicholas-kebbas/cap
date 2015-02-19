@@ -11,6 +11,12 @@ h1, h2, h3, a, p{
   min-height:800px;
 }
 
+.navbar-inverse{
+  background-color: #051642!important;
+}
+.navbar-inverse a{
+  color: #E59A00!important;
+}
 .phone-images {
   background-color: white;
   width: 450px;
@@ -38,6 +44,9 @@ h1, h2, h3, a, p{
   padding-top: 15px;
 }
 
+.salaries p{
+  display:inline-block;
+}
 /** Detail View **/
 img.phone {
   float: left;
@@ -113,6 +122,18 @@ h1 {
 
 .phones p{
   color:black;
+  display:inline;
+}
+
+.phones a{
+  color: #1A4787;
+  font-size:18px;
+  font-weight:500;
+
+}
+.phones a:focus, a:hover{
+  color: #E59A00;
+  text-decoration: none
 }
 
 .query_bar{

@@ -1,212 +1,303 @@
-[    
-    {
-        "rank": 1,  
-        "id": "nets", 
-        "imageUrl": "img/phones/nets.jpg", 
-        "name": "Brooklyn Nets", 
-        "salary": "94,400,070"
-    },
-    {
-        "rank": 2,
-        "id": "trailblazers", 
-        "imageUrl": "img/phones/trailblazers.jpg",
-        "name": "Portland Trailblazers",
-        "salary": "89,320,392"
-    },
-    {
-        "rank": 3,  
-        "id": "Rockets", 
-        "imageUrl": "img/phones/rockets.jpg", 
-        "name": "Houston Rockets", 
-        "salary": "89,227,612"
-    },
-    {
-        "rank": 4,
-        "id": "wizards", 
-        "imageUrl": "img/phones/wizards.jpg",
-        "name": "Washington Wizards",
-        "salary": "85,415,897"
-    },
-    {
-        "rank": 5,  
-        "id": "mavericks", 
-        "imageUrl": "img/phones/mavericks.jpg", 
-        "name": "Dallas Mavericks", 
-        "salary": "83,301,367"
-    },
-    {
-        "rank": 6,
-        "id": "cavaliers", 
-        "imageUrl": "img/phones/cavaliers.jpg",
-        "name": "Cleveland Cavaliers",
-        "salary": "81,604,221"
-    },
-    {
-        "rank": 7,  
-        "id": "knicks", 
-        "imageUrl": "img/phones/knicks.jpg", 
-        "name": "New York Knicks", 
-        "salary": "81,334,014"
-    },
-    {
-        "rank": 8,
-        "id": "bulls", 
-        "imageUrl": "img/phones/bulls.jpg",
-        "name": "Chicago Bulls",
-        "salary": "81,244,225"
-    },
-    {
-        "rank": 9,  
-        "id": "clippers", 
-        "imageUrl": "img/phones/clippers.jpg", 
-        "name": "Los Angeles Clippers", 
-        "salary": "80,539,840"
-    },
-    {
-        "rank": 10,
-        "id": "thunder", 
-        "imageUrl": "img/phones/thunder.jpg",
-        "name": "Oklahoma City Thunder",
-        "salary": "79,217,289"
-    },
-    {
-        "rank": 11,  
-        "id": "heat", 
-        "imageUrl": "img/phones/heat.jpg", 
-        "name": "Miami Heat", 
-        "salary": "78,603,727"
-    },
-    {
-        "rank": 12,
-        "id": "raptors", 
-        "imageUrl": "img/phones/raptors.jpg",
-        "name": "Toronto Raptors",
-        "salary": "75,562,364"
-    },
-    {
-        "rank": 13,  
-        "id": "hornets", 
-        "imageUrl": "img/phones/hornets.jpg", 
-        "name": "Charlotte Hornets", 
-        "salary": "75,954,458"
-    },
-    {
-        "rank": 14,
-        "id": "Indiana Pacers", 
-        "imageUrl": "img/phones/pacers.jpg",
-        "name": "Indiana Pacers",
-        "salary": "75,174,324"
-    },
-    {
-        "rank": 15,  
-        "id": "Memphis Grizzlies", 
-        "imageUrl": "img/phones/grizzlies.jpg", 
-        "name": "Memphis Grizzlies", 
-        "salary": "75,311,383"
-    },
-    {
-        "rank": 16,
-        "id": "Golden State Warriors", 
-        "imageUrl": "img/phones/warriors.jpg",
-        "name": "Golden State Warriors",
-        "salary": "73,516,218"
-    },
-    {
-        "rank": 17,  
-        "id": "nets", 
-        "imageUrl": "img/phones/kings.jpg", 
-        "name": "Sacramento Kings", 
-        "salary": "71,038,383"
-    },
-    {
-        "rank": 18,
-        "id": "lakers", 
-        "imageUrl": "img/phones/lakers.jpg",
-        "name": "Los Angeles Lakers",
-        "salary": "70,821,702"
-    },
-    {
-        "rank": 19,  
-        "id": "nuggets", 
-        "imageUrl": "img/phones/nuggets.jpg", 
-        "name": "Denver Nuggets", 
-        "salary": "70,201,536"
-    },
-    {
-        "rank": 20,
-        "id": "wizards", 
-        "imageUrl": "img/phones/wizards.jpg",
-        "name": "Washington Wizards",
-        "salary": "85,415,897"
-    },
-    {
-        "rank": 21,  
-        "id": "mavericks", 
-        "imageUrl": "img/phones/mavericks.jpg", 
-        "name": "Dallas Mavericks", 
-        "salary": "83,301,367"
-    },
-    {
-        "rank":22,
-        "id": "cavaliers", 
-        "imageUrl": "img/phones/cavaliers.jpg",
-        "name": "Cleveland Cavaliers",
-        "salary": "81,604,221"
-    },
-    {
-        "rank": 23,  
-        "id": "knicks", 
-        "imageUrl": "img/phones/knicks.jpg", 
-        "name": "New York Knicks", 
-        "salary": "81,334,014"
-    },
-    {
-        "rank": 24,
-        "id": "Chicago Bulls", 
-        "imageUrl": "img/phones/bulls.jpg",
-        "name": "Chicago Bulls",
-        "salary": "81,244,225"
-    },
-    {
-        "rank": 25,  
-        "id": "mavericks", 
-        "imageUrl": "img/phones/mavericks.jpg", 
-        "name": "Dallas Mavericks", 
-        "salary": "83,301,367"
-    },
-    {
-        "rank":26,
-        "id": "cavaliers", 
-        "imageUrl": "img/phones/cavaliers.jpg",
-        "name": "Cleveland Cavaliers",
-        "salary": "81,604,221"
-    },
-    {
-        "rank": 27,  
-        "id": "knicks", 
-        "imageUrl": "img/phones/knicks.jpg", 
-        "name": "New York Knicks", 
-        "salary": "81,334,014"
-    },
-    {
-        "rank": 28,
-        "id": "Chicago Bulls", 
-        "imageUrl": "img/phones/bulls.jpg",
-        "name": "Chicago Bulls",
-        "salary": "81,244,225"
-    },
-    {
-        "rank": 29,  
-        "id": "knicks", 
-        "imageUrl": "img/phones/knicks.jpg", 
-        "name": "New York Knicks", 
-        "salary": "81,334,014"
-    },
-    {
-        "rank": 30,
-        "id": "Chicago Bulls", 
-        "imageUrl": "img/phones/bulls.jpg",
-        "name": "Chicago Bulls",
-        "salary": "81,244,225"
-    }
+[
+  {
+    "FIELD1":1,
+    "FIELD2":"Brooklyn Nets",
+    "salary_2015":"$94400070",
+    "salary_2016":"$78446354",
+    "salary_2017":"$36996439",
+    "salary_2018":"",
+    "salary_2019":"",
+    "salary_2020":""
+  },
+  {
+    "FIELD1":2,
+    "FIELD2":"Portland Trail Blazers",
+    "salary_2015":"$89320392",
+    "salary_2016":"$35832648",
+    "salary_2017":"$3219579",
+    "salary_2018":"",
+    "salary_2019":"",
+    "salary_2020":""
+  },
+  {
+    "FIELD1":3,
+    "FIELD2":"Houston Rockets",
+    "salary_2015":"$89227612",
+    "salary_2016":"$64642043",
+    "salary_2017":"$50150130",
+    "salary_2018":"$27567057",
+    "salary_2019":"",
+    "salary_2020":""
+  },
+  {
+    "FIELD1":4,
+    "FIELD2":"Washington Wizards",
+    "salary_2015":"$85415897",
+    "salary_2016":"$69284802",
+    "salary_2017":"$47297131",
+    "salary_2018":"$30846459",
+    "salary_2019":"$32735018",
+    "salary_2020":""
+  },
+  {
+    "FIELD1":5,
+    "FIELD2":"Dallas Mavericks",
+    "salary_2015":"$83301367",
+    "salary_2016":"$44258360",
+    "salary_2017":"$29958880",
+    "salary_2018":"$4403000",
+    "salary_2019":"",
+    "salary_2020":""
+  },
+  {
+    "FIELD1":6,
+    "FIELD2":"Cleveland Cavaliers",
+    "salary_2015":"$81604221",
+    "salary_2016":"$88274419",
+    "salary_2017":"$27193835",
+    "salary_2018":"$26957900",
+    "salary_2019":"$18063850",
+    "salary_2020":"$19169800"
+  },
+  {
+    "FIELD1":7,
+    "FIELD2":"New York Knicks",
+    "salary_2015":"$81334014",
+    "salary_2016":"$36682342",
+    "salary_2017":"$37126054",
+    "salary_2018":"$26243760",
+    "salary_2019":"$27928140",
+    "salary_2020":""
+  },
+  {
+    "FIELD1":8,
+    "FIELD2":"Chicago Bulls",
+    "salary_2015":"$81244225",
+    "salary_2016":"$63965681",
+    "salary_2017":"$49657018",
+    "salary_2018":"$3294994",
+    "salary_2019":"",
+    "salary_2020":""
+  },
+  {
+    "FIELD1":9,
+    "FIELD2":"Los Angeles Clippers",
+    "salary_2015":"$80539840",
+    "salary_2016":"$67225122",
+    "salary_2017":"$58102296",
+    "salary_2018":"$54797413",
+    "salary_2019":"$950000",
+    "salary_2020":""
+  },
+  {
+    "FIELD1":10,
+    "FIELD2":"Oklahoma City Thunder",
+    "salary_2015":"$79217289",
+    "salary_2016":"$72457988",
+    "salary_2017":"$45222699",
+    "salary_2018":"$3518726",
+    "salary_2019":"",
+    "salary_2020":""
+  },
+  {
+    "FIELD1":11,
+    "FIELD2":"Miami Heat",
+    "salary_2015":"$78603727",
+    "salary_2016":"$73660524",
+    "salary_2017":"$31854061",
+    "salary_2018":"$33671925",
+    "salary_2019":"$26837720",
+    "salary_2020":""
+  },
+  {
+    "FIELD1":12,
+    "FIELD2":"Toronto Raptors",
+    "salary_2015":"$75562364",
+    "salary_2016":"$48449074",
+    "salary_2017":"$31060960",
+    "salary_2018":"$17398530",
+    "salary_2019":"",
+    "salary_2020":""
+  },
+  {
+    "FIELD1":13,
+    "FIELD2":"Charlotte Hornets",
+    "salary_2015":"$75954458",
+    "salary_2016":"$66010313",
+    "salary_2017":"$30722833",
+    "salary_2018":"$17764680",
+    "salary_2019":"$12000000",
+    "salary_2020":""
+  },
+  {
+    "FIELD1":14,
+    "FIELD2":"Indiana Pacers",
+    "salary_2015":"$75174324",
+    "salary_2016":"$63536742",
+    "salary_2017":"$34403001",
+    "salary_2018":"$24281633",
+    "salary_2019":"$20703384",
+    "salary_2020":""
+  },
+  {
+    "FIELD1":15,
+    "FIELD2":"Memphis Grizzlies",
+    "salary_2015":"$75311383",
+    "salary_2016":"$50475593",
+    "salary_2017":"$23556409",
+    "salary_2018":"$2573353",
+    "salary_2019":"$163296",
+    "salary_2020":""
+  },
+  {
+    "FIELD1":16,
+    "FIELD2":"Golden State Warriors",
+    "salary_2015":"$73516218",
+    "salary_2016":"$82586757",
+    "salary_2017":"$56715704",
+    "salary_2018":"$17825500",
+    "salary_2019":"$18987500",
+    "salary_2020":""
+  },
+  {
+    "FIELD1":17,
+    "FIELD2":"Sacramento Kings",
+    "salary_2015":"$71038383",
+    "salary_2016":"$55989264",
+    "salary_2017":"$56550248",
+    "salary_2018":"$34854743",
+    "salary_2019":"",
+    "salary_2020":""
+  },
+  {
+    "FIELD1":18,
+    "FIELD2":"Los Angeles Lakers",
+    "salary_2015":"$70821702",
+    "salary_2016":"$47810509",
+    "salary_2017":"$8711038",
+    "salary_2018":"$9817909",
+    "salary_2019":"",
+    "salary_2020":""
+  },
+  {
+    "FIELD1":19,
+    "FIELD2":"Denver Nuggets",
+    "salary_2015":"$70201536",
+    "salary_2016":"$78321817",
+    "salary_2017":"$29849765",
+    "salary_2018":"$18418708",
+    "salary_2019":"$13764045",
+    "salary_2020":""
+  },
+  {
+    "FIELD1":20,
+    "FIELD2":"San Antonio Spurs",
+    "salary_2015":"$69614583",
+    "salary_2016":"$33659326",
+    "salary_2017":"$33966341",
+    "salary_2018":"$24604830",
+    "salary_2019":"",
+    "salary_2020":""
+  },
+  {
+    "FIELD1":21,
+    "FIELD2":"New Orleans Pelicans",
+    "salary_2015":"$69037724",
+    "salary_2016":"$56289291",
+    "salary_2017":"$26594996",
+    "salary_2018":"$3853931",
+    "salary_2019":"",
+    "salary_2020":""
+  },
+  {
+    "FIELD1":22,
+    "FIELD2":"Phoenix Suns",
+    "salary_2015":"$68595482",
+    "salary_2016":"$60860455",
+    "salary_2017":"$52701065",
+    "salary_2018":"$39994078",
+    "salary_2019":"$28826089",
+    "salary_2020":""
+  },
+  {
+    "FIELD1":23,
+    "FIELD2":"Boston Celtics",
+    "salary_2015":"$65066838",
+    "salary_2016":"$34441253",
+    "salary_2017":"$16767757",
+    "salary_2018":"$16150516",
+    "salary_2019":"",
+    "salary_2020":""
+  },
+  {
+    "FIELD1":24,
+    "FIELD2":"Detroit Pistons",
+    "salary_2015":"$63671826",
+    "salary_2016":"$48750517",
+    "salary_2017":"$25198750",
+    "salary_2018":"",
+    "salary_2019":"",
+    "salary_2020":""
+  },
+  {
+    "FIELD1":25,
+    "FIELD2":"Milwaukee Bucks",
+    "salary_2015":"$62916202",
+    "salary_2016":"$51099680",
+    "salary_2017":"$29730603",
+    "salary_2018":"$17782392",
+    "salary_2019":"",
+    "salary_2020":""
+  },
+  {
+    "FIELD1":26,
+    "FIELD2":"Minnesota Timberwolves",
+    "salary_2015":"$61538338",
+    "salary_2016":"$65702539",
+    "salary_2017":"$55752966",
+    "salary_2018":"$39696383",
+    "salary_2019":"$15147125",
+    "salary_2020":""
+  },
+  {
+    "FIELD1":27,
+    "FIELD2":"Utah Jazz",
+    "salary_2015":"$58220207",
+    "salary_2016":"$54886726",
+    "salary_2017":"$48796125",
+    "salary_2018":"$46644798",
+    "salary_2019":"$11286515",
+    "salary_2020":""
+  },
+  {
+    "FIELD1":28,
+    "FIELD2":"Atlanta Hawks",
+    "salary_2015":"$58182724",
+    "salary_2016":"$42451846",
+    "salary_2017":"$25564687",
+    "salary_2018":"",
+    "salary_2019":"",
+    "salary_2020":""
+  },
+  {
+    "FIELD1":29,
+    "FIELD2":"Orlando Magic",
+    "salary_2015":"$53563463",
+    "salary_2016":"$36282694",
+    "salary_2017":"$21954549",
+    "salary_2018":"$8836760",
+    "salary_2019":"",
+    "salary_2020":""
+  },
+  {
+    "FIELD1":30,
+    "FIELD2":"Philadelphia 76ers",
+    "salary_2015":"$42535129",
+    "salary_2016":"$20315969",
+    "salary_2017":"$20525553",
+    "salary_2018":"$13560742",
+    "salary_2019":"",
+    "salary_2020":""
+  }
 ]
+
