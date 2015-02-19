@@ -21,11 +21,11 @@ capApp.config(['$routeProvider',
         templateUrl: 'views/teams.html',
         controller: 'TeamCtrl'
       }).
-      when ('/teams/:teamId', {
+      when ('/teams/:teamName', {
         templateUrl: 'views/team_detail.html',
         controller: 'TeamDetailCtrl'
       }).
-      when('/players/:phoneId', {
+      when('/players/:phoneName', {
         templateUrl: 'views/detail.html',
         controller: 'PhoneDetailCtrl'
       }).

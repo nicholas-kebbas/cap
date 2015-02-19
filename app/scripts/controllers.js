@@ -11,15 +11,14 @@ capControllers.controller('PhoneListCtrl', function ($scope, $http){
 });
 
 capControllers.controller('TeamCtrl', function ($scope, $http){
-  $http.get('phones/teams.json').success(function(data) {
+    $http.get('phones/teams.json').success(function(data) {
     $scope.teams = data;
   });
-  $scope.orderProp = 'rank';
 });
 
 capControllers.controller('PhoneDetailCtrl', ['$scope', '$routeParams', 'Phone',
   function($scope, $routeParams, Phone) {
-    $scope.phone = Phone.get({phoneId: $routeParams.phoneId}, function(phone) {
+    $scope.phone = Phone.get({phoneRank: $routeParams.phoneName}, function(phone) {
       $scope.mainImageUrl = phone.images[0];
     });
 
@@ -30,7 +29,7 @@ capControllers.controller('PhoneDetailCtrl', ['$scope', '$routeParams', 'Phone',
 
 capControllers.controller('TeamDetailCtrl', ['$scope', '$routeParams', 'Team',
   function($scope, $routeParams, Team) {
-    $scope.team = Team.get({teamId: $routeParams.teamId}, function(team) {
+    $scope.team = Team.get({teamRank: $routeParams.teamName}, function(team) {
       $scope.mainImageUrl = team.images[0];
     });
 
