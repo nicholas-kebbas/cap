@@ -25,6 +25,9 @@ h1, h2, h3, a, p{
   position: relative;
   float: left;
 }
+.pagination li{
+  display:inline-block;
+}
 
 .phones {
   list-style: none;

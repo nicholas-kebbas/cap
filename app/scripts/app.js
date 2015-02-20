@@ -7,7 +7,8 @@ var capApp = angular.module('capApp', [
   'capAnimations',
   'capControllers',
   'capFilters',
-  'capServices'
+  'capServices',
+  'angularUtils.directives.dirPagination'
 ]);
 
 capApp.config(['$routeProvider',
