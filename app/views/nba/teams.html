@@ -1,5 +1,8 @@
 <div class="container-fluid" id="main_container">
 	<div class="row">
+		<div class="col-md-2">
+		<!--Sidebar content-->
+		</div>
 		<div class="col-md-10">
 		<!--Body content-->
 		<div class="salary_cap">
@@ -8,9 +11,6 @@
 			<ul class="phones">
 				<li ng-repeat="team in teams | filter:query | orderBy:orderProp "
 				class="thumbnail phone-listing">
-				<div class="ranking">
-					<a href="#/teams/{{team.rank}}">{{team.rank}}</a>
-				</div>
 				<a href="#/teams/{{team.rank}}" class="thumb"><img class="profile" ng-src="{{team.imageUrl}}"></a>
 				<a href="#/teams/{{team.rank}}">{{team.name}}</a>
 				<div ng-controller="TeamCtrl" class="salaries">
