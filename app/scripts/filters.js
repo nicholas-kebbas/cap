@@ -8,3 +8,4 @@ angular.module('capFilters', []).filter('offset', function() {
 		return input.slice(start);
 	};
 });
+

@@ -14,7 +14,7 @@
 				<a href="#/teams/{{team.rank}}" class="thumb"><img class="profile" ng-src="{{team.imageUrl}}"></a>
 				<a href="#/teams/{{team.rank}}">{{team.name}}</a>
 				<div ng-controller="TeamCtrl" class="salaries">
-					<p>2014-2015 Salary: <p class="comma_salary">{{ team.2015 }} </p></p>
+					<p>2014-2015 Salary: <p class="comma_salary">{{ team.2015|addcomma}} </p></p>
 				</div>
 				</li>
 			</ul>
