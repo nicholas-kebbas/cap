@@ -16,7 +16,7 @@ capApp.config(['$routeProvider',
     $routeProvider.
       when('/nba_players', {
         templateUrl: 'views/nba/nba_players.html',
-        controller: 'PhoneListCtrl'
+        controller: 'PlayerListCtrl'
       }).
       when ('/nba_teams', {
         templateUrl: 'views/nba/teams.html',
@@ -26,13 +26,13 @@ capApp.config(['$routeProvider',
         templateUrl: 'views/nba/team_detail.html',
         controller: 'TeamDetailCtrl'
       }).
-      when('/nba_players/:phoneName', {
+      when('/nba_players/:playerName', {
         templateUrl: 'views/nba/detail.html',
-        controller: 'PhoneDetailCtrl'
+        controller: 'PlayerDetailCtrl'
       }).
       when('/nhl_players', {
         templateUrl: 'views/nhl/nhl_players.html',
-        controller: 'PhoneListCtrl'
+        controller: 'PlayerListCtrl'
       }).
       when ('/nhl_teams', {
         templateUrl: 'views/nhl/teams.html',
@@ -42,13 +42,13 @@ capApp.config(['$routeProvider',
         templateUrl: 'views/nhl/team_detail.html',
         controller: 'TeamDetailCtrl'
       }).
-      when('/nhl_players/:phoneName', {
+      when('/nhl_players/:PlayerName', {
         templateUrl: 'views/nhl/detail.html',
-        controller: 'PhoneDetailCtrl'
+        controller: 'PlayerDetailCtrl'
       }).
       when('/nfl_players', {
         templateUrl: 'views/nfl/nfl_players.html',
-        controller: 'PhoneListCtrl'
+        controller: 'PlayerListCtrl'
       }).
       when ('/nfl_teams', {
         templateUrl: 'views/nfl/teams.html',
@@ -58,13 +58,13 @@ capApp.config(['$routeProvider',
         templateUrl: 'views/nfl/team_detail.html',
         controller: 'TeamDetailCtrl'
       }).
-      when('/nfl_players/:phoneName', {
+      when('/nfl_players/:PlayerName', {
         templateUrl: 'views/nfl/detail.html',
-        controller: 'PhoneDetailCtrl'
+        controller: 'PlayerDetailCtrl'
       }).
       when('/mlb_players', {
         templateUrl: 'views/mlb/mlb_players.html',
-        controller: 'PhoneListCtrl'
+        controller: 'PlayerListCtrl'
       }).
       when ('/mlb_teams', {
         templateUrl: 'views/mlb/teams.html',
@@ -74,9 +74,9 @@ capApp.config(['$routeProvider',
         templateUrl: 'views/mlb/team_detail.html',
         controller: 'TeamDetailCtrl'
       }).
-      when('/mlb_players/:phoneName', {
+      when('/mlb_players/:PlayerName', {
         templateUrl: 'views/mlb/detail.html',
-        controller: 'PhoneDetailCtrl'
+        controller: 'PlayerDetailCtrl'
       }).
      otherwise({
         redirectTo: '/nba_players'
