@@ -7,6 +7,9 @@ body {
 h1, h2, h3, a, p{
   font-family: 'Lato', sans-serif;
 }
+a{
+  color: #051642;
+}
 .view-container{
   min-height:800px;
 }
@@ -61,16 +64,7 @@ h1, h2, h3, a, p{
 background-color: #051642
 }  
 /** Detail View **/
-img.phone {
-  float: left;
-  margin-right: 3em;
-  margin-bottom: 2em;
-  background-color: white;
-  padding: 2em;
-  height: 400px;
-  width: 400px;
-  display: none;
-}
+
 
 img.phone:first-child {
   display: block;
@@ -223,7 +217,6 @@ body {
 font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 font-size: 14px;
 line-height: 1.42857143;
-color: #fff;
 background-color: #F1F1F1;
 }
 

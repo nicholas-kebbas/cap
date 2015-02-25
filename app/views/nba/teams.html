@@ -5,21 +5,28 @@
 		<div class="salary_cap">
 			<h2>2014-2015 Salary Cap: 63,065,000</h2>
 		</div>
-			<ul class="phones">
-				<li ng-repeat="team in teams | filter:query | orderBy:orderProp "
-				class="thumbnail phone-listing">
-					<div class="ranking">
-						<a href="#/players/{{team.rank}}">{{team.rank}}</a>
-					</div>
-					<div class="info">
-						<a href="#/teams/{{team.rank}}">{{team.name}}</a>
-
-						<div ng-controller="TeamCtrl" class="salaries">
-							<p>2014-2015 Salary: <p class="comma_salary">{{ team.2015|addcomma}} </p></p>
-						</div>
-					</div>
-				</li>
-			</ul>
+			<table class="table table-striped">
+				<thead>
+					<tr>
+						<th>#</th>
+						<th>Team</th>
+						<th>2014-2015 Salary</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr ng-repeat="team in teams | filter:query | orderBy:orderProp">
+						<td>
+							<a href="#/players/{{team.rank}}">{{team.rank}}</a>
+						</td>
+						<td>
+							<a href="#/teams/{{team.rank}}">{{team.name}}</a>
+						</td>
+						<td ng-controller="TeamCtrl" >
+							{{team.2015|addcomma}}
+						</td>
+					</tr>
+				</tbody>
+			</table>
 		</div>
 	</div>
 </div>
