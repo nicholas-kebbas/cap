@@ -6,6 +6,15 @@
 				<table class="table table-striped">
 				<thead>
 					<tr>
+						<span>Search:</span>
+							<input ng-model="query.name">
+						<span>Sort by:</span>
+						<select ng-model="orderProp">
+			  				<option value="name">Alphabetical</option>
+			  				<option value="2015" selected="selected">Highest Paid</option>
+						</select>
+					</tr>
+					<tr>
 						<th>#</th>
 						<th>Player</th>
 						<th>2014-2015 Salary</th>
@@ -15,7 +24,7 @@
 				<tbody>
 					<tr dir-paginate="player in players |  filter:query | filter: query | orderBy:orderProp | itemsPerPage: 25">
 						<td>
-							<a href="#/players/{{player.rank}}">{{player.rank}}</a>
+							<a href="#/players/{{player.name}}">{{player.rank}}</a>
 						</td>
 						<td>
 							<a href="#/players/{{player.rank}}">{{player.name}}</a>

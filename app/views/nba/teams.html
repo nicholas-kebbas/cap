@@ -8,6 +8,15 @@
 			<table class="table table-striped">
 				<thead>
 					<tr>
+						<span>Search:</span>
+							<input ng-model="query.name">
+						<span>Sort by:</span>
+						<select ng-model="orderProp">
+			  				<option value="name">Alphabetical</option>
+			  				<option value="salary" selected>Highest Paid</option>
+						</select>
+					</tr>
+					<tr>
 						<th>#</th>
 						<th>Team</th>
 						<th>2014-2015 Salary</th>
